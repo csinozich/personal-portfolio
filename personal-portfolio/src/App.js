@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import NavigationFunction from './components/navigation/navigation-function'
-import Navigation from './components/navigation/navigation'
+import About from './components/about/about';
+import Contact from './components/contact/contact';
+import Homepage from './components/homepage-animation/homepage';
+import Portfolio from './components/portfolio/portfolio';
+import Writing from './components/writing/writing'
 
 
 class App extends Component {
@@ -13,6 +17,6 @@ class App extends Component {
   }
 }
 
-const WithNavigationFunction = NavigationFunction();
+const WithNavigationFunction = NavigationFunction(About)(Portfolio)(Homepage)(Writing)(Contact);
 
 export default App;
