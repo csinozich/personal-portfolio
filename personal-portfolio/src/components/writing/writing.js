@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Writing = () => {
-  return(
+const Writing = props => {
+  return (
     <div>
-      <h1>This is writing</h1>
+      <h2>This is the Writing page</h2>
     </div>
   )
-};
+}
 
-export default Writing;
+export default Writing

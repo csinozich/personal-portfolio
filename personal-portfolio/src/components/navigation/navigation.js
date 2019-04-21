@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
-const Navigation = () => {
-  return(
-    <div>
-      <button>About</button>
-      <button>Portfolio</button>
-      <button>Claire Sinozich</button>
-      <button>Writing</button>
-      <button>Contact</button>
-    </div>
+const Navigation = props => {
+  return (
+    <nav>
+      <Link to='/about'>About</Link>
+      <Link to='/contact'>Contact</Link>
+      <Link to='/'>Claire Sinozich</Link>
+      <Link to='/writing'>Writing</Link>
+      <Link to='/coding'>Coding</Link>
+    </nav>
   )
 }
 
-export default Navigation
+export default Navigation;
