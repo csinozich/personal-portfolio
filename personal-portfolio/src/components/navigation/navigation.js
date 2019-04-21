@@ -1,14 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import './navigation.css'
 
 const Navigation = props => {
   return (
     <nav>
-      <Link to='/about'>About</Link>
-      <Link to='/contact'>Contact</Link>
-      <Link to='/'>Claire Sinozich</Link>
-      <Link to='/writing'>Writing</Link>
-      <Link to='/coding'>Coding</Link>
+      <NavLink to='/about' className='nav-link'>About</NavLink>
+      <NavLink to='/contact' className='nav-link'>Contact</NavLink>
+      <NavLink to='/' className='nav-link nav-home'>Claire Sinozich</NavLink>
+      <NavLink to='/writing' className='nav-link'>Writing</NavLink>
+      <NavLink to='/coding' className='nav-link'>Coding</NavLink>
     </nav>
   )
 }

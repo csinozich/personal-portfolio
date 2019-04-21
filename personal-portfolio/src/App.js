@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route } from 'react-router-dom'
+import { Route } from 'react-router-dom';
+
+import './app.css'
 
 import Navigation from './components/navigation/Navigation';
 import About from './components/about/About';

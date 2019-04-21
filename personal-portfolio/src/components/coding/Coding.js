@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './coding.css'
 
 const Coding = props => {
   const routeToProject = (event, project) => {
@@ -8,7 +8,7 @@ const Coding = props => {
   }
 
   return (
-    <div>
+    <div className='coding-projects'>
     {props.projects.map(project => (
       <div
         onClick={event => routeToProject(event, project)}
@@ -16,8 +16,8 @@ const Coding = props => {
         <img
           src={project.imageUrl}
           alt={project.name}
+          className='coding-page-images'
         />
-        <p>{project.name}</p>
       </div>
     ))}
     </div>
