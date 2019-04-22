@@ -1,4 +1,12 @@
 * {
-  background-color: #000000;
-  color: white;
+  background-color: #F2FDFF;
+  color: dimgray;
+}
+
+p, a {
+  font-family: 'Lora', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', sans-serif;
 }

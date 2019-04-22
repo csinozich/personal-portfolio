@@ -2,7 +2,51 @@
   display: flex;
 }
 
+.coding-projects:hover {
+  cursor: pointer;
+}
+
 .coding-page-images {
   margin: 10px;
-  border: 1px solid gray;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.coding-page-images:hover {
+  opacity: 0.5;
+}
+
+.project-button {
+  text-decoration: none;
+  border: 1px solid dimgray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+a:hover {
+  color: #845A6D
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.project {
+  height: 750px;
 }

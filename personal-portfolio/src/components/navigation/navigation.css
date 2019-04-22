@@ -2,23 +2,33 @@ nav {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: black;
-  border-top: 1px solid gray;
+  background-color: #F2FDFF;
   width: 100%;
   height: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
+.other-links {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .nav-link {
-  color: white;
-  font-size: 20px;
+  color: dimgray;
+  font-size: 18px;
   text-decoration: none;
-  font-family: 'Megrim', sans-serif;
+  font-family: 'Lora', sans-serif;
+}
+
+.nav-link:hover {
+  color: #845A6D;
 }
 
 .nav-home {
-  font-family: 'Megrim', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-size: 30px;
+  padding-left: 30px;
 }
