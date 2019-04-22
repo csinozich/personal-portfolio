@@ -1,0 +1,40 @@
+.contact-sites {
+  width: 400px;
+  height: 400px;
+}
+
+.contact-info {
+  width: 400px;
+  height: 400px;
+}
+
+.contact {
+  width: 1000px;
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-around;
+}
+
+.find {
+
+}
+
+.reach {
+
+}
+
+.find-link {
+  text-align: center;
+  padding-right: 60px;
+  padding-top: 15px;
+}
+
+.find-link a {
+  text-decoration: none;
+}
+
+.contact-p {
+  text-align: center;
+  padding-right: 60px;
+  padding-top: 30px;
+}
