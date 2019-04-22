@@ -11,7 +11,7 @@ const Project = props => {
       <a className='back' href='/coding'>&#8668; go back</a>
       <div className='project'>
         <div className='project-image'>
-          <img src={project.imageUrl} />
+          <img src={project.imageUrl} alt={project.name}/>
         </div>
         <div className='project-info'>
           <h2>{project.name}</h2>

@@ -5,7 +5,7 @@ const About = props => {
   return (
     <div className='about'>
       <div>
-        <img className='about-image' src='https://live.staticflickr.com/65535/40702294363_d8945f2dec_z.jpg' />
+        <img className='about-image' src='https://live.staticflickr.com/65535/40702294363_d8945f2dec_z.jpg' alt='headshot'/>
       </div>
       <div className='about-content'>
         <div>
@@ -123,7 +123,7 @@ const About = props => {
             <li>I am currently a volunteer at my town's Recycling Center, since my town does not support recycling pickup from homes</li>
             <li>I am absolutely in love with the Ancient Near East, with a particular focus on Akkadian and Sumerian languages and mythology. I have studied cuneiform, Biblical literature, and mythologies from the Akkadian Empire, Sumer, Babylonia, the Levant, and Ancient Egypt.</li>
             <li>I am an avid traveler, having visited France, England, Spain, Denmark, Sweden, Germany, Palestine, Israel, Egypt, Jordan, Canada, and 29 out of 50 US states. I've lived in six states: Delaware, Massachusetts, Maine, North Carolina, New York, and Colorado.</li>
-            
+
           </ul>
         </div>
       </div>

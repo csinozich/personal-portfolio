@@ -5,7 +5,7 @@ import './navigation.css'
 const Navigation = props => {
   return (
     <nav>
-      <NavLink to='/' className='nav-link nav-home'><img src='https://live.staticflickr.com/65535/47668479731_cea3877f4d_m.jpg' /></NavLink>
+      <NavLink to='/' className='nav-link nav-home'><img src='https://live.staticflickr.com/65535/47668479731_cea3877f4d_m.jpg' alt='claire-sinozich'/></NavLink>
       <div className='other-links'>
         <NavLink to='/about' className='nav-link'>About</NavLink>
         <NavLink to='/contact' className='nav-link'>Contact</NavLink>
