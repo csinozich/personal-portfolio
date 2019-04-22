@@ -3,7 +3,10 @@ import React from 'react';
 const Contact = props => {
   return (
     <div>
-      <h2>This is the Contact page</h2>
+      <div className='contact-info'>
+      </div>
+      <div className='contact-sites'>
+      </div>
     </div>
   )
 }

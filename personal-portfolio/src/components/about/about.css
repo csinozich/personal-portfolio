@@ -11,7 +11,40 @@
   left: 50px;
 }
 
+.aboutheader {
+  text-align: center;
+  font-size: 40px;
+}
+
 .about-content {
   width: 600px;
   margin-left: 200px;
+  height: 3250px;
+}
+
+.dates {
+  font-size: 14px;
+  color: gray;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.about-header {
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.columns {
+  column-count: 2;
 }
