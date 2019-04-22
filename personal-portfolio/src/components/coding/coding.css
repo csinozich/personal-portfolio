@@ -34,7 +34,6 @@ a:hover {
 
 .project {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -48,5 +47,10 @@ a:hover {
 }
 
 .project {
-  height: 750px;
+  height: 600px;
+}
+
+.project-info {
+  width: 600px;
+  padding-left: 30px;
 }

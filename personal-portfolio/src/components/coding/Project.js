@@ -10,12 +10,16 @@ const Project = props => {
     <div className='project'>
       <a className='back' href='/coding'>&#8668; go back</a>
       <div className='project'>
-        <img src={project.imageUrl} />
-        <h2>{project.name}</h2>
-        <p>{project.description}</p>
-        <p>Languages used: {project.languages}</p>
-        <p><a href={project.github} className='project-button'>Check out the code on GitHub</a></p>
-        <p><a href={project.netlify} className='project-button'>See it in action on Netlify</a></p>
+        <div className='project-image'>
+          <img src={project.imageUrl} />
+        </div>
+        <div className='project-info'>
+          <h2>{project.name}</h2>
+          <p>{project.description}</p>
+          <p>Languages used: {project.languages}</p>
+          <p><a href={project.github} className='project-button'>Check out the code on GitHub</a></p>
+          <p><a href={project.netlify} className='project-button'>See it in action on Netlify</a></p>
+        </div>
       </div>
     </div>
   )

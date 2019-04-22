@@ -31,7 +31,7 @@ const Writing = props => {
       <div className='writing-section'>
         <img className='writing-img' src='https://live.staticflickr.com/65535/32727760817_6d81a0a3be.jpg' />
         <a className='article' href='https://medium.com/@claire.sinozich/a-case-against-toxic-queerness-b11b83158aeb'>A Case Against Toxic Queerness</a>
-        <a className='article' href='https://medium.com/@claire.sinozich/i-didnt-know-i-was-raped-7fac89926267'>I Didn't Know I was Raped</a>
+        <a className='article' href='https://medium.com/@claire.sinozich/i-didnt-know-i-was-raped-7fac89926267'>I Didn't Know I Was Raped</a>
       </div>
     </div>
   )
