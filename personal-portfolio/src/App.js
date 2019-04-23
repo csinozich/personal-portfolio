@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 import './app.css'
 
 // import Navigation from './components/navigation/Navigation';
-import About from './components/about/About';
+// import About from './components/about/About';
 import Coding from './components/coding/Coding';
 import Project from './components/coding/Project';
 import Contact from './components/contact/Contact';
@@ -30,7 +30,7 @@ class App extends React.Component {
       <div className="App">
         // <Route path='/' component={Navigation} />
         <Route path='/' exact component={Homepage} />
-        <Route path='/about' exact component={About} />
+        // <Route path='/about' exact component={About} />
         <Route path='/contact' exact component={Contact} />
         <Route path='/writing' exact component={Writing} />
         <Route path='/coding' exact render={props => (
