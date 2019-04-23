@@ -10,7 +10,7 @@ const About = props => {
       <div className='about-content'>
         <div>
           <h2 className='aboutheader'>Nice to meet you!</h2>
-          <p>My name is Claire Sinozich, and I'm currently based just outside of Denver, Colorado. I am currently a full stack web development student with Lambda School, and an aspiring web developer. I am also passionate about sustainable food production, peace and state-building initiatives, and Ancient Near Eastern mythology.</p>
+          <p>My name is Claire Sinozich, and I'm currently based just outside of Denver, Colorado. I am currently a full stack web development student with Lambda School, and an aspiring web developer. I am also passionate about sustainable food production, peace and state-building initiatives, and Ancient Near Eastern mythology. I use she/her pronouns.</p>
         </div>
         <div>
           <h3 className='about-header'>Education</h3>
