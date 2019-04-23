@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 
 import './app.css'
 
-import Navigation from './components/navigation/Navigation';
+// import Navigation from './components/navigation/Navigation';
 import About from './components/about/About';
 import Coding from './components/coding/Coding';
 import Project from './components/coding/Project';
@@ -28,7 +28,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Route path='/' component={Navigation} />
+        // <Route path='/' component={Navigation} />
         <Route path='/' exact component={Homepage} />
         <Route path='/about' exact component={About} />
         <Route path='/contact' exact component={Contact} />
