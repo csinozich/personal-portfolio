@@ -7,7 +7,7 @@ export default [
     description:
       "This app was made for a 'build week' at Lambda School, in conjunction with Safe Mothers Safe Babies, a non-profit in Uganda working towards reducing infant and mother mortality rates. This project was made on a team. I designed the entire application, and worked on the front end.",
     imageUrl:
-      "https://live.staticflickr.com/65535/48000906757_5d7fdde8b9_o.png",
+      "https://live.staticflickr.com/65535/48000968228_94e61ca459_o.png",
     languages: "CSS, HTML, JavaScript, React, React Redux, React Router",
     id: 0
   },
