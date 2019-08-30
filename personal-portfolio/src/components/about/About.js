@@ -15,12 +15,13 @@ const About = props => {
         <div>
           <h2 className="aboutheader">Nice to meet you!</h2>
           <p>
-            My name is Claire Sinozich, and I'm currently based just outside of
-            Denver, Colorado. I am currently a full stack web development
-            student with Lambda School, and an aspiring web developer. I am also
-            passionate about sustainable food production, peace and
-            state-building initiatives, and Ancient Near Eastern mythology. I
-            use she/her pronouns.
+            My name is Claire Sinozich, and I'm based just outside of Denver,
+            Colorado. I am currently a full stack web development student with
+            Lambda School, and an aspiring web developer. My technology
+            interests include data security, blockchain, decentralization, and
+            agtech. I am also passionate about sustainable food production,
+            peace and state-building initiatives, and Ancient Near Eastern
+            mythology. I use she/her pronouns.
           </p>
         </div>
         <div>
@@ -28,13 +29,14 @@ const About = props => {
           <div className="right-align">
             <h4>Lambda School</h4>
             <p className="dates">
-              November 2018-present (Graduation: March 2020)
+              November 2018-present (Graduation: May 2020)
             </p>
             <p className="description">Full Stack Web Development</p>
             <p>
               I am currently a student with Lambda School, an online programming
-              school. So far, I have completed the full front-end curriculum.
-              See the languages I've learned below.
+              and computer science vocational program. So far, I have completed
+              the full front-end and back-end curriculum. See the languages I've
+              learned below.
             </p>
             <h4>New York University</h4>
             <p className="dates">September 2013-May 2017</p>
@@ -71,11 +73,13 @@ const About = props => {
             <li>Programming</li>
             <li>Microsoft Office</li>
             <li>Academic and Industry-Specific Research</li>
-            <li>Project and Event Planning and Management</li>
+            <li>Project and Planning and Management</li>
             <li>Hydroponic Farming</li>
             <li>FTIR Research and Readings</li>
             <li>Adobe Creative Suite</li>
             <li>Academic and Industry-Specific Writing</li>
+            <li>Marketing Platforms: Mautic and Hubspot</li>
+            <li>Adobe Creative Cloud</li>
             <li>
               Languages
               <ul>
@@ -115,18 +119,38 @@ const About = props => {
                 <li>Styled Components</li>
               </ul>
             </li>
-            <li>React Redux</li>
+            <li>
+              React Redux
+              <ul>
+                <li>Redux Thunk</li>
+              </ul>
+            </li>
             <li>PHP</li>
             <li>Wordpress</li>
             <li>
               SQL
               <ul>
-                <li>SQLite</li>
+                <li>SQLite3</li>
                 <li>SQLite Studio</li>
               </ul>
             </li>
             <li>Node.js</li>
             <li>Express</li>
+            <li>
+              Authentication
+              <ul>
+                <li>BCrypt JS</li>
+                <li>JSON Web Tokens</li>
+                <li>Cookies and Sessions</li>
+              </ul>
+            </li>
+            <li>
+              Testing
+              <ul>
+                <li>Jest</li>
+                <li>Supertest</li>
+              </ul>
+            </li>
             <li>
               Miscellaneous
               <ul>
@@ -135,6 +159,7 @@ const About = props => {
                 <li>Git Flow</li>
                 <li>UI Principles</li>
                 <li>Functional Programming Techniques</li>
+                <li>Blockstack</li>
               </ul>
             </li>
           </ul>
@@ -142,24 +167,24 @@ const About = props => {
         <div>
           <h3 className="about-header">Work Experience</h3>
           <div className="right-align">
-            <h4>Startup Secrets</h4>
+            <h4>Startup Secrets (by Underscore Venture Capital)</h4>
             <p className="dates">February 2018-present</p>
-            <p className="description">Content and Outreach Coordinator</p>
+            <p className="description">Product Manager</p>
             <p>
               Startup Secrets is a non-profit dedicated to educating
               entrepreneurs regardless of location or socio-economic status,
               with the goal of supporting developing communities around the
-              world. At Startup Secrets, I wear a lot of hats!{" "}
+              world. At Startup Secrets, I wear a lot of hats!
             </p>
             <p>
               <span className="italic">Marketing</span>: I handle all marketing
               efforts at Startup Secrets, including (1) email marketing
-              (newsletters, personalized emails, etc.) with Mautic, (2) content
-              marketing, including blog posts and content pillars, (3) social
-              media, managing LinkedIn, Twitter, Facebook, Quora, and Medium,
-              (4) branding, developing a style guide and branding guidelines,
-              and (5) Paid advertising with Google Ads, YouTube Ads, and social
-              media advertising.
+              (newsletters, personalized emails, etc.) with Mautic and Hubspot,
+              (2) content marketing, including blog posts and content pillars,
+              (3) social media, managing LinkedIn, Twitter, Facebook, Quora, and
+              Medium, (4) branding, developing a style guide and branding
+              guidelines, and (5) Paid advertising with Google Ads, YouTube Ads,
+              and social media advertising.
             </p>
             <p>
               <span className="italic">Content</span>: Outside of the blog, I
