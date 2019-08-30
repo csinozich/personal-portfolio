@@ -1,5 +1,15 @@
 export default [
   {
+    name: "The Law Firm of Paula A. Wells",
+    github: "https://github.com/csinozich/paw-website",
+    netlify: "https://focused-colden-0bbd9c.netlify.com/",
+    description:
+      "Simple one-page static website designed and built for the Law Firm of Paula A. Wells.",
+    imageUrl: "https://live.staticflickr.com/65535/48649507196_d694d4e427.jpg",
+    languages: "CSS, LESS, HTML",
+    id: 0
+  },
+  {
     name: "Ride for Life",
     github: null,
     netlify:
@@ -9,7 +19,7 @@ export default [
     imageUrl:
       "https://live.staticflickr.com/65535/48000968228_94e61ca459_o.png",
     languages: "CSS, HTML, JavaScript, React, React Redux, React Router",
-    id: 0
+    id: 1
   },
   {
     name: "Personal Portfolio",
@@ -19,7 +29,7 @@ export default [
       "This portfolio is one of my own original projects and designs! You can check out the code in my GitHub.",
     imageUrl: "https://live.staticflickr.com/65535/40711992463_ca64efc93c.jpg",
     languages: "HTML, CSS, React, React Router",
-    id: 1
+    id: 2
   },
   {
     name: "Productivity Application",
@@ -29,7 +39,7 @@ export default [
       "This Productivity Application was built out of a project for Lambda School. It is a basic application with a to-do list and Pomodoro timer, and a little basic styling. You can see a tutorial for this project in the writing tab below. This was made in collaboration with Douglas Jordan (www.douglasjordan.me).",
     imageUrl: "https://live.staticflickr.com/65535/40704529703_7d91084390.jpg",
     languages: "HTML, CSS, React, React Router",
-    id: 2
+    id: 3
   },
   {
     name: "S&J Architects",
@@ -39,6 +49,6 @@ export default [
       "This website was made as a test for HTML, CSS, and JavaScript skills at Lambda School. It is a basic portfolio-type website. This project was not designed by me.",
     imageUrl: "https://live.staticflickr.com/65535/47618123442_9ecd31bba0.jpg",
     languages: "CSS, HTML, JavaScript, LESS",
-    id: 3
+    id: 4
   }
 ];
