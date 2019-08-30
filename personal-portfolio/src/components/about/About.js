@@ -18,10 +18,10 @@ const About = props => {
             My name is Claire Sinozich, and I'm based just outside of Denver,
             Colorado. I am currently a full stack web development student with
             Lambda School, and an aspiring web developer. My technology
-            interests include data security, blockchain, decentralization, and
-            agtech. I am also passionate about sustainable food production,
-            peace and state-building initiatives, and Ancient Near Eastern
-            mythology. I use she/her pronouns.
+            interests include data security/ownership, blockchain,
+            decentralization, and agtech. I am also passionate about sustainable
+            food production, peace and state-building initiatives, and Ancient
+            Near Eastern mythology. I use she/her pronouns.
           </p>
         </div>
         <div>
