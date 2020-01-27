@@ -1,5 +1,9 @@
 .coding-projects {
   display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
 }
 
 .coding-projects:hover {
@@ -12,7 +16,7 @@
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
@@ -29,7 +33,7 @@
 }
 
 a:hover {
-  color: #845A6D
+  color: #845a6d;
 }
 
 .project {
