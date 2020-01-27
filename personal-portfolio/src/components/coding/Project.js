@@ -18,7 +18,7 @@ const Project = props => {
         <div className="project-info">
           <h2>{project.name}</h2>
           <p>{project.description}</p>
-          <p>Languages used: {project.languages}</p>
+          <p>Languages and libraries used: {project.languages}</p>
           {project.github ? (
             <p>
               <a href={project.github} className="project-button">
@@ -27,6 +27,15 @@ const Project = props => {
             </p>
           ) : (
             <p>The GitHub repository is not available for this project.</p>
+          )}
+          {project.design ? (
+            <p>
+              <a href={project.design} className="project-button">
+                Check out the original design
+              </a>
+            </p>
+          ) : (
+            <p>The original design is not available for this project</p>
           )}
           <p>
             <a href={project.netlify} className="project-button">

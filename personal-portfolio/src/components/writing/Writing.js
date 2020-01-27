@@ -41,94 +41,41 @@ const Writing = props => {
           src="https://live.staticflickr.com/65535/32727759747_a0c4500949.jpg"
           alt="professional blog writing"
         />
-        <p className="note">
-          Note: All articles found on{" "}
-          <a href="www.startupsecrets.com">www.startupsecrets.com</a> were
-          authored by me.
-        </p>
         <a
           className="article"
-          href="https://www.startupsecrets.com/blog/4-questions-to-ask-before-starting-a-subscription-box/"
-        >
-          4 Questions to Ask Before Starting a Subscription Box
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/tips-for-building-your-remote-team"
-        >
-          Tips for Building Your Remote Team
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/3-key-lessons-from-amazons-2017-shareholder-letter"
+          href="https://medium.com/startup-secrets-revealed/lessons-from-amazons-2017-shareholder-letter-76a42133f9bf"
         >
           3 Key Lessons From Amazon's 2017 Shareholder Letter
         </a>
         <a
           className="article"
-          href="https://www.startupsecrets.com/blog/how-to-check-for-investor-references"
-        >
-          How to Check For Investor References
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/subaru-left-a-note-on-my-car-this-morning"
+          href="https://medium.com/startup-secrets-revealed/subaru-left-a-note-on-my-car-this-morning-7e6cb72cd693"
         >
           Subaru Left a Note On My Car This Morning
         </a>
         <a
           className="article"
-          href="https://www.startupsecrets.com/blog/anatomy-great-investor-pitch"
+          href="https://medium.com/startup-secrets-revealed/the-anatomy-of-a-great-investor-pitch-994daf5b00a1"
         >
           The Anatomy of a Great Investor Pitch
         </a>
         <a
           className="article"
-          href="https://www.startupsecrets.com/blog/why-entrepreneurs-should-say-no"
+          href="https://medium.com/startup-secrets-revealed/why-entrepreneurs-should-say-no-12cc6274e50c"
         >
           Why Entrepreneurs Should Say No
         </a>
         <a
           className="article"
-          href="https://www.startupsecrets.com/blog/non-disruptive-disruptions"
-        >
-          Non-Disruptive Disruptions
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/as-an-entrepreneur-where-do-you-start"
+          href="https://medium.com/startup-secrets-revealed/as-an-entrepreneur-where-do-you-start-de3711d417f4"
         >
           As an Entrepreneur, Where Do You Start?
         </a>
         <a
           className="article"
-          href="https://www.startupsecrets.com/blog/vision-vs-execution"
+          href="https://medium.com/startup-secrets-revealed/avoid-the-most-common-hiring-mistake-in-a-simple-way-d095592b2271"
         >
-          Vision vs. Execution
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/hiring-right-part-one"
-        >
-          Hiring Right: Part 1
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/hiring-right-part-two"
-        >
-          Hiring Right: Part 2
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/tapping-into-your-internal-energy"
-        >
-          Tapping Into Your Internal Energy
-        </a>
-        <a
-          className="article"
-          href="https://www.startupsecrets.com/blog/7-ways-to-avoid-the-hiring-mistake-most-people-make"
-        >
-          7 Ways to Avoid the Hiring Mistake Most People Make
+          Avoid the Most Common Hiring Mistake In a Simple Way
         </a>
       </div>
       <div className="writing-section">

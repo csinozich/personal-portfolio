@@ -1,5 +1,30 @@
 export default [
   {
+    name: "Grantlify - In Progress",
+    github: null,
+    netlify: "www.grantlify.com",
+    description:
+      "An application to search for and apply to grants, as well as post grants and receive applications.",
+    design:
+      "https://xd.adobe.com/spec/bf8bf6ec-3666-4842-745b-e0c4288ce0aa-c9ba/grid",
+    imageUrl:
+      "https://live.staticflickr.com/65535/49450408822_ff43ed8ea0_n.jpg",
+    languages:
+      "CSS, HTML, React, React Router, React Hooks, Express, Node, PostGreSQL, Material UI"
+  },
+  {
+    name: "Random Acts of Kindness - In Progress",
+    github: null,
+    netlify: "https://festive-archimedes-fea6a5.netlify.com/",
+    description:
+      'Simple application allowing you to create and view "random acts of kindness" and attach them to contacts.',
+    design:
+      "https://xd.adobe.com/view/4143d6ba-144e-4f0c-6e00-48026a88c0c2-3772/",
+    imageUrl:
+      "https://live.staticflickr.com/65535/49450180776_e0b47b5de0_n.jpg",
+    languages: "CSS, HTML, React, React Router, Express, Node"
+  },
+  {
     name: "The Law Firm of Paula A. Wells",
     github: "https://github.com/csinozich/paw-website",
     netlify: "https://focused-colden-0bbd9c.netlify.com/",
