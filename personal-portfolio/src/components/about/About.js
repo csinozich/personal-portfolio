@@ -117,6 +117,7 @@ const About = props => {
                 <li>React Router</li>
                 <li>ReactStrap</li>
                 <li>Styled Components</li>
+                <li>React Hooks</li>
               </ul>
             </li>
             <li>
@@ -136,12 +137,14 @@ const About = props => {
             </li>
             <li>Node.js</li>
             <li>Express</li>
+            <li>Python</li>
             <li>
               Authentication
               <ul>
                 <li>BCrypt JS</li>
                 <li>JSON Web Tokens</li>
                 <li>Cookies and Sessions</li>
+                <li>Firebase</li>
               </ul>
             </li>
             <li>
@@ -168,7 +171,7 @@ const About = props => {
           <h3 className="about-header">Work Experience</h3>
           <div className="right-align">
             <h4>Startup Secrets (by Underscore Venture Capital)</h4>
-            <p className="dates">February 2018-present</p>
+            <p className="dates">February 2018-January 2020</p>
             <p className="description">Product Manager</p>
             <p>
               Startup Secrets is a non-profit dedicated to educating
